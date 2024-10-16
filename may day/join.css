@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-jon {
+  width: 100%;
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(brooke-cagle-g1Kr4Ozfoac-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.content .h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+display: flex;
+  padding: 7px 10px;
+  background-color: black;
+  color: rgb(231, 231, 231);
+  border-radius: 19px;
+}
+.h3-logo{
+  color: #fff;
+}
+
+.comp {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.content h2 {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 7px 10px;
+  font-size: 20px;
+  border-radius: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.nav-jon {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: black;
+}
+
+form {
+  text-align: center;
+  margin-top: 1rem;
+  justify-items: center;
+  max-width: 400px;
+  padding: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+}
+
+form h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(48, 31, 65);
+}
+
+.inputs {
+  display: grid;
+  gap: 0.7rem;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 1rem;
+}
+label {
+  font-size: 13px;
+  color: rgb(85, 84, 84);
+  margin: auto;
+  justify-content: left;
+}
+
+.remem {
+  display: flex;
+  gap: 0.3rem;
+}
+
+input {
+  padding: 10px 15px;
+  border-bottom: 2 px solid rgb(124, 17, 196);
+  border-radius: 19px;
+}
+
+.backward {
+  font-size: 30px;
+
+  font-weight: 800;
+  color: #fff;
+}
+.content p {
+  color: rgb(105, 77, 131);
+  font-size: 13px;
+}
+
+.jon-text h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 70px;
+  padding-top: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
+.next-ln {
+  display: flex;
+  justify-content: space-between;
+}
+.ln1 {
+  width: 100px;
+  margin-top: 0.5rem;
+  height: 1px;
+  background-color: rgb(109, 107, 107);
+}
