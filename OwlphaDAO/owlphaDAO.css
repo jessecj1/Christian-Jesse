@@ -1,0 +1,765 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+body{
+   overflow-x: hidden;
+   cursor: pointer;
+   scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+
+
+.top-nav{
+    background: transparent;
+    backdrop-filter: blur(15px);
+    padding: 1rem 2.5rem;
+    width: 100%;
+   justify-content: space-between;  
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0px 0px 10px 0px #1d1d1d;
+}
+
+.nav-op{
+    margin-left: -2rem;
+}
+
+
+
+.Join-icon{
+    margin-top: 0.1rem;
+}
+
+.top-nav img{
+    width: 60px;
+    height: 50px;
+    
+}
+
+
+
+.header-content{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 10rem;
+   
+}
+
+.home-texts p{
+    color: #eee;
+    margin: auto;
+    
+    font-weight: 550;
+}
+
+.nav-op{
+    position: fixed;
+    left: 30%;
+}
+
+.last-btn{
+    color: #eee;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.7rem 1.5rem ;
+    border: 2px solid #e48c2a;
+    margin-bottom: auto;
+    border-radius: 9px;
+    margin-top: 0.5;
+    background-color: #050505;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+
+.last-btn:hover{
+    color: #000;
+    background-color: #e48c2a;
+    border: 2px solid #eee;
+}
+
+.top-nav ul{
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    margin-top: 0.5;
+    margin-bottom: auto;
+    border-radius: 20px;
+    padding: 0.7rem 1.5rem ;
+   
+}
+
+.top-nav ul li{
+    list-style: none;
+    font-size: 16px;
+    transition: all 0.4s;
+}
+
+.top-nav li{
+    
+    transition: all 0.4s;
+}
+
+
+
+.top-nav li{
+    font-weight: 700;
+}
+
+
+
+.top-nav a{
+    text-decoration: none;
+    color: #d8d4d4;
+    transition: all 0.4s;
+}
+
+.top-nav  a :hover{
+    color: #e48c2a ;
+     
+ }
+
+ .main-home{
+    position: absolute;
+    z-index: 1;
+ }
+
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+ .home-text-content h2{
+    font-size: 55px ;
+    margin-left: -6rem;
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .lines{
+    width: 100%;
+    background-color: #000;
+    bottom: -4%;
+    position: absolute;
+    height: 10px;
+    
+ }
+
+ .home-text-content h1{
+    margin-left: 4rem;
+    font-size: 210px ;
+    color: #e48c2a;
+    letter-spacing: -0.7cqw;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .home-text-content h3{
+    padding: 0.6rem;
+    border:  2px solid #e48c2a;
+    margin-left: 5rem;
+    margin-right: 4rem;
+    border-radius: 9px;
+    font-weight: 200;
+    font-size: 20px;
+    color: #eee;
+    cursor: pointer;
+    transition: all 0.3s;
+    max-width: 370px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .home-text-content span{
+    color: #e48c2a;
+ }
+
+
+ .home-text-content{
+    line-height:0.85 ;
+ }
+
+
+.home-content .home-texts{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding-top: 12rem;
+}
+
+.contex{
+    background-color: #000;
+    display: flex;
+    padding: 0 15rem;
+    margin-right: -5rem;
+    text-align: center;
+    
+    align-content: center;
+    justify-content: space-between;
+    
+}
+
+.contex img{
+    width: 600px;
+    height: 600px;
+    
+}
+
+.owlpha-voice{
+    background-color: #000;
+    display: flex;
+    padding: 2rem 7rem;
+    gap: 1rem;
+}
+
+
+
+.owlpha-voice img{
+    width: 590px;
+    height: 430px;
+}
+
+.voice-contents{
+    color: #eee;
+    display: grid;
+    gap: 0.5rem;
+}
+
+
+.voice-contents h1{
+    padding: 1.4rem 0.7rem;
+    border: 1px solid #e48c2a;
+    text-transform: uppercase;
+    max-width: 260px;
+    margin-bottom: 0.5rem;
+}
+
+.voice-contents p{
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 100;
+    word-spacing: 1px;
+    padding-right: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.holders{
+    background-color: #000;
+    color: #eee;
+    padding: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.holders ul li{
+font-size: 15px;
+}
+
+.holders img{
+    width: 100px;
+    height: 50px;
+}
+
+.holders-text-content{
+    padding-left: 2rem;
+}
+
+.holders-last{
+    margin-left: -2rem;
+    text-transform: capitalize;
+}
+
+
+.holders-list{
+   
+    padding-bottom: 2rem;
+    display: grid;
+    gap: 0.6rem;
+    
+    
+}
+
+
+.listing{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.listing p{
+    text-transform: capitalize;
+}
+
+.list{
+    padding: 0.2rem 0.5rem;
+    font-size: 12px;
+        background-color: #e48c2a;
+        color: #eee;
+        font-weight: 700;
+        border-radius: 5px;
+    }
+
+    .holders-content{
+        display: flex;
+    }
+
+    .holders-content h1{
+        font-size: 50px;
+    }
+
+    .holders-content span{
+        color: #e48c2a;
+    }
+
+    .holders-header{
+        padding-bottom: 1rem;
+        line-height: 1;
+    }
+
+    .holders img{
+        width: 100px;
+        height: 100px;
+        margin-left: 27.9rem;
+        margin-bottom: -3rem;
+    }
+
+    .holders-header p{
+        font-style: italic;
+        color: #e48c2a;
+    }
+
+    .earn {
+  max-width: 400px;
+  margin-top: 7rem;
+    }
+
+    .earn h2{
+        padding: 1rem 0.5rem;
+        border: 1px solid #e48c2a;
+        margin-bottom: 0.5rem;
+        max-width: 200px;
+    }
+
+    .chat-room{
+        background-color: #fee5c7;
+        padding: 3rem;
+    }
+
+    .chat-room img{
+        width: 550px;
+        height: 300px;
+    }
+
+    .chat-out{
+        justify-content: center;
+        padding: 2rem;
+        border: 2px solid #383737;
+        border-radius: 30px;
+    }
+
+    .chat-room-content{
+        display: flex;
+        gap: 3rem;
+       
+    }
+
+    .get-socials{
+        margin-top: 2rem;
+        justify-content: right;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-right: 13rem;
+        
+    } 
+
+    .get-socials h4{
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 0.5rem;
+    }
+
+    .get-socials button{
+        padding: 1rem 2.5rem;
+        color: #fff;
+        border: 3px solid #000;
+        background-color: #000 ;
+        font-size: 15px;
+        justify-content: right;
+       
+        font-weight: 700;
+        transition: 0.4s;
+    }
+
+    .get-socials button:hover{
+        background-color: #fee5c7;
+        color: #000;
+        }
+
+
+    .chat-room-content h1{
+        font-size: 65px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 500px;
+        font-weight: 200;
+        
+    }
+
+    .contact{
+        background-color: #000;
+        padding: 5rem 7rem;
+        color: #eee;
+    }
+
+    .contact h1{
+        font-size: 50px;
+    }
+
+    .contact-content{
+        display: flex;
+        justify-content: space-between;
+
+        
+    }
+
+    .contact-contant-2{
+        justify-content: baseline;
+        margin-top: 7.9rem;
+        text-align: center;
+    }
+
+
+    .contact-contant-2 button{
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        background-color: #000;
+        color: #eee;
+        font-weight: 900;
+        border: 2px solid #e48c2a;
+    }
+
+     .icons{
+        display: flex;
+        color: #e48c2a;
+        font-size: 20px;
+        gap: 0.7rem;
+        margin-top: 1rem;
+        
+        justify-content: center;
+    }
+
+    .contact-contant-2 h3{
+        font-size: 17px;
+    }
+
+    .contact-email{
+        margin-top: 2rem;
+    }
+    
+
+    .contact-social{
+        margin-top: 3.5rem;
+    }
+
+    aside{
+        background-color: #222121;
+        color: #615f5f;
+        font-size: 12px;
+        padding: 0.3rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .nav-btn{
+        display: none;
+    }
+
+        
+.about-content {
+    color: #eee;
+    background-color: #000;
+    padding-top: 11rem;
+    padding-bottom: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.about-content h1{
+    font-size: 100px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-1{
+    max-width: 500px;
+}
+
+.content-2{
+    max-width: 550px;
+margin-top: 17rem;
+}
+
+
+.marg-adjust{
+    margin-left: -17rem;
+}
+
+
+/* RESPONSVE */
+
+
+@media screen and (max-width: 1240px) {
+
+    .contex img{
+        width: 400px;
+        height: 400px;
+        
+    }
+
+    .owlpha-voice img{
+        width: 390px;
+        height: 230px;
+    }
+
+    .chat-room img{
+        width: 350px;
+        height: 150px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+   .nav-op{
+    margin-left: -4.5rem;
+   }
+
+
+}
+
+@media screen and (max-width: 910px) {
+
+
+    .chat-room img{
+        display: none;
+    }
+ }
+
+
+@media screen and (max-width: 860px) {
+
+    .nav-op{
+     display: none;
+    }
+
+    .get-socials{
+        margin-top: 2rem;
+        justify-content: right;
+        text-align: right;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        
+    } 
+
+    video{
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+        
+    }
+ 
+
+    .top-nav ul{
+        display: none;
+    }
+
+    .nav-btn{
+     color: #eee;
+     font-size: 47px;
+        display: grid;
+    }
+
+    .last-btn{
+        display: none;
+    }
+
+    .contex{
+        display: grid;
+        justify-content: center;
+        margin-right: -1.5rem;
+    }
+
+
+    .contex img{
+        width: 700px;
+        height: 700px;
+        
+    }
+
+    .owlpha-voice{
+       
+        display: grid;
+        padding-left: 2.5rem;
+    }
+
+    .owlpha-voice img{
+        margin-top: 1rem;
+        width: 590px;
+        height: 450px;
+    }
+ 
+ }
+
+
+
+ @media screen and (max-width: 672px) {
+    
+
+    .about-content{
+        display: grid;
+        padding-left: 1;
+        padding-bottom: 6rem;
+        padding-top: 9rem;
+    }
+
+    .about-content .content-2{
+         margin-top: 2rem;
+    }
+
+    .about-content h1{
+        font-size: 65px;
+    }
+
+    .contex img{
+        width: 400px;
+        height: 400px;
+        
+    }
+
+    .holders-content{
+        display: grid;
+        padding-left: 1rem;
+    }
+
+.holders-text-content{
+    padding-left: 1rem;
+}
+
+
+.holders{
+    padding-left: 1rem;
+}
+
+
+.holders-last{
+    margin-left: 0rem;
+    
+    text-transform: capitalize;
+}
+    .owlpha-voice img{
+        width: 290px;
+        height: 200px;
+    }
+
+    .home-text-content h1{
+        padding-left: 0.5rem;
+        font-size: 150px ;
+        margin-left: 0.5rem;
+     }
+
+     .home-text-content h2{
+        font-size: 30px ;
+        margin-left: -4rem;
+        
+     }
+
+     .home-text-content h3{
+        margin-right: 2rem;
+        margin-left: 3rem;
+        font-size: 15px;
+        color: #eee;
+        max-width: 400px;
+     }
+
+   
+ }
+
+ @media screen and (max-width: 672px){
+    .home-text-content h1{
+        padding-left: 0.5rem;
+        font-size: 110px ;
+        margin-left: 0.5rem;
+     }
+ }
+
+
+ @media screen and (max-width: 672px){
+    .home-text-content h1{
+        padding-left: 0.5rem;
+        font-size: 110px ;
+        margin-left: 0.5rem;
+     }
+
+     .contact-content{
+        display: grid;
+     }
+
+     .contact-contant-2{
+        padding-right: -2rem;
+        padding-left: 2rem;
+     }
+
+     .contact{
+        padding-left: 2rem;
+        padding-left: 2rem;
+     }
+ }
+
+
+ @media screen and (max-width: 560px){
+    .chat-room-content h1{
+        font-size: 50px;
+        
+        
+    }
+
+    .chat-room{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+
+    .chat-out{
+        padding: 0.5rem;
+        padding-left: 1.5;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
